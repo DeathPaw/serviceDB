@@ -14,8 +14,8 @@ ____
     http://localhost:8080/clients/id , id = userId of person you are going to get    
 ____
 - PUT(update)
-    - put user by id. (requires __id__ in address line)    
-    with put request you can replace a single attribute, multiple attributes or the whole body(@RequestBody)    
+    - put user by id. (requires __id__ in address line and the whole body(__@RequestBody__))      
+    TODO :black_square_button: with put request you can replace a single attribute, multiple attributes or the whole body(@RequestBody)    
     http://localhost:8080/clients    
     returns http status    
     

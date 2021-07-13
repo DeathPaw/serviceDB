@@ -50,6 +50,7 @@ public class ClientController {
 
    @PutMapping(value = "/clients/{id}")
    public ResponseEntity<?> update(@PathVariable(name = "id") int id, @RequestBody Client client) {
+
        final boolean updated = clientService.update(client, id);
 
        return updated

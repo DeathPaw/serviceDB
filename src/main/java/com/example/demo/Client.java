@@ -24,7 +24,7 @@ public class Client {
     @Column(name = "phone")
     private String phone;
 
-	   public Integer getId() {
+	public Integer getId() {
 	       return id;
 	   }
 
