@@ -15,7 +15,7 @@ ____
 ____
 - PUT(update)
     - put user by id. (requires __id__ in address line and the whole body(__@RequestBody__))      
-    TODO :black_square_button: with put request you can replace a single attribute, multiple attributes or the whole body(@RequestBody)    
+    :black_square_button: TODO with put request you can replace a single attribute, multiple attributes or the whole body(@RequestBody)    
     http://localhost:8080/clients    
     returns http status    
     
@@ -27,7 +27,7 @@ ____
 	}    
 ____
 - POST(add new)
-	- post user by id. (requires the whole body(__@RequestBody__))    
+	- post user. (requires the whole body(__@RequestBody__))    
 	with post request you can add new user to database    
     http://localhost:8080/clients    
     returns http status    
