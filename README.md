@@ -42,5 +42,5 @@ ____
 - DELETE
 	- delete user by id. (requires __id__ in address line)    
 	with delete request you can delete single user from database    
-	_http://localhost:8080/clients/id_ , id = userId of person you are going to remove 
+	_http://localhost:8080/clients/id_ , id = userId of person you are going to remove  asdasd
 	
